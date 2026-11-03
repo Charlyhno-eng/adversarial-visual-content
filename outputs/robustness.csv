@@ -1,0 +1,4 @@
+Test,AI similarity (%)
+ResNet-18 / PNG,0.7311344146728516
+ResNet-18 / JPEG quality 90,4.733467102050781
+MobileNet / PNG (transfer),92.86566925048828

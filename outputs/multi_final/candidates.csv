@@ -1,0 +1,10 @@
+candidate,budget,ssim,quality_eligible,worst_tests_passed,mean_tests_passed,all_local_detectors_separated,worst_hash_tests_passed
+hash_02,2,0.9958174891178327,True,0,0.0,False,0
+ensemble_02,2,0.9903276567234224,True,2,2.0,False,0
+smooth_02,2,0.9972379420744254,True,0,0.0,False,0
+hash_04,4,0.9871295881223662,True,0,0.5,False,0
+ensemble_04,4,0.9672632161337296,False,2,2.0,False,0
+smooth_04,4,0.9913485014364958,True,0,0.0,False,0
+hash_08,8,0.9610944083116034,False,2,2.0,False,2
+ensemble_08,8,0.9168791381885391,False,2,2.0,False,0
+smooth_08,8,0.9805016231830691,True,2,2.0,False,2

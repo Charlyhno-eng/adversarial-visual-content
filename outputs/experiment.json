@@ -1,0 +1,20 @@
+{
+  "source": "https://img.rts.ch/articles/2019/image/519ln2-27739145.image?w=0&h=NaN",
+  "source_sha256": "ac9af8d30408fd04982a0905d36b0900ecf04c0581a16ac8ba92277f39b6f627",
+  "dimensions": [
+    385,
+    512
+  ],
+  "seed": 17,
+  "steps": 80,
+  "budgets": [
+    1,
+    2,
+    4
+  ],
+  "selected_budget": 1,
+  "criterion_met": true,
+  "torch": "2.15.0+cpu",
+  "torchvision": "0.29.2+cpu",
+  "device": "cpu"
+}

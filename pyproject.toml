@@ -1,0 +1,38 @@
+[project]
+name = "adversarial-visual-content"
+version = "0.1.0"
+description = "Reproducible adversarial image perturbation experiment"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "torch>=2.5",
+    "torchvision>=0.20",
+    "numpy",
+    "pillow",
+    "matplotlib",
+    "pandas",
+    "scikit-image",
+    "requests",
+    "nbformat",
+    "nbclient",
+    "ipykernel",
+    "jupyterlab",
+    "imagehash>=4.3.2",
+    "pdqhash>=0.2.8",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
